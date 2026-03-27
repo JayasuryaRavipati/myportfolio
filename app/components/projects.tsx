@@ -1,7 +1,7 @@
 import Header from './ui/header'
 import { projects } from '../lib/data'
+// import Link from 'next/link'
 import Link from 'next/link'
-
 import { FaGithub } from 'react-icons/fa6'
 import Project from './ui/project'
 import { useSectionInView, useWindowSizeHook } from '../lib/hooks'
