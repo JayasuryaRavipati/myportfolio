@@ -58,7 +58,8 @@ import niners from '@/public/49ers.png'
 import scikit from '@/public/scikit.png'
 import pandas from '@/public/pandas.png'
 import shap from '@/public/shap.png'
-import twitterBot from '@/public/jn.png'
+// import twitterBot from '@/public/jn.png'
+import twitterBot from '@/public/twitter-bot.png'
 
 export const links = [
   {
@@ -96,7 +97,7 @@ export const socials = [
   {
     name: 'GitHub',
     icon: FaGithub,
-    href: 'https://www.github.com/23a95a1210',
+    href: 'https://www.github.com/JayasuryaRavipati',
   },
   {
     name: 'Email',
@@ -221,49 +222,52 @@ export const skills = [
 
 export const projects = [
   {
-    name: 'Job Navigator',
-    image: twitterBot,
-    description:
-'As a developer on the Job Navigator project, I built a platform that streamlines job searches by integrating AI-driven recommendations, real-time filtering, and user-friendly navigation for an efficient job-seeking experience.',   
- tech: [
-      {
-        src: html,
-        alt: 'html',
-      },
-      {
-        src: css,
-        alt: 'css',
-      },
-      {
-        src: javascript,
-        alt: 'javascript',
-      },
-      // {
-      //   src: pandas,
-      //   alt: 'pandas',
-      // },
-    ],
-    link: null,
-    code: 'https://23a95a1210.github.io/job_navigator/',
-  },
+  name: 'RequestHub',
+  image: twitterBot,
+  description:
+    'As a developer on the RequestHub project, I built a platform that simplifies student request management by providing features for leave requests, internship permissions, certificate requests, and ID card services with an easy-to-use and efficient interface.',
+  tech: [
+    {
+      src: react,
+      alt: 'react',
+    },
+    {
+      src: node,
+      alt: 'nodejs',
+    },
+    {
+      src: express,
+      alt: 'express',
+    },
+    {
+      src: mongodb,
+      alt: 'mongodb',
+    },
+  ],
+  link: null,
+  code: 'https://request-hub-52.vercel.app/',
+},
   {
-    name: 'LiveScore App',
+    name: 'Mini-socialmedia network',
     image: vinylBot,
     description:
-      "Developed a LiveScore app that provides real-time match updates, integrating APIs for seamless score tracking and an enhanced user experience.",
-    tech: [
+"Developed a Mini Social Media Network platform that enables users to connect, share posts, interact through comments and likes, and manage user relationships with an engaging and user-friendly experience.",    tech: [
       {
-        src: mongodb,
-        alt: 'mongo',
-      },
-      {
-        src: react,
-        alt: 'react',
-      },
-      {
-        src: node,
-        alt: 'node',
-      },
+      src: react,
+      alt: 'react',
+    },
+    {
+      src: node,
+      alt: 'nodejs',
+    },
+    {
+      src: express,
+      alt: 'express',
+    },
+    {
+      src: mongodb,
+      alt: 'mongodb',
+    },
       // {
       //   src: cron,
       //   alt: 'cron',
@@ -278,7 +282,7 @@ export const projects = [
       // },
     ],
     link: null,
-    code: 'https://github.com/aross2010/vinyl-bot',
+    code: '',
   },
  
 ]
